@@ -1,4 +1,7 @@
 const express = require('express');
+const quotes = require('random-movie-quotes')
+// Package above needed to be added
+
 const app = express();
 const port = 3000;
 
